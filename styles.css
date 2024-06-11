@@ -30,8 +30,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10vh;
-    padding: 20px;
-    background-color: #115e59;
+    padding: 25px;
+    background-color: #0f857d;
     color:#fff7ed;
     font-size: 'PoppinsLight';
 }
@@ -52,10 +52,24 @@ body {
     height: clamp(30px, 3vw, 40px);
 }
 
+.child {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.child svg {
+    height: clamp(15px, 1.2vw, 30px);
+    fill: #fff7ed;
+}
+
 .tab {
     display: flex;
     align-items: center;
+    gap: 1vw;
+    font-size: clamp(10px, 1vw, 25px);
 }
+
 
 .header {
     grid-row: 1 / 2;
