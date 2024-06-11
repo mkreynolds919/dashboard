@@ -30,10 +30,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10vh;
-    padding: 25px;
+    padding: 35px 10px 0px 25px;
     background-color: #0f857d;
     color:#fff7ed;
     font-size: 'PoppinsLight';
+}
+
+.sidebar svg {
+    height: clamp(25px, 2vw, 45px);
+    fill: #fff7ed;
 }
 
 .logo-container {
@@ -45,7 +50,7 @@ body {
 }
 
 .logo-title {
-    font-size: clamp(15px, 1.5vw, 35px);
+    font-size: clamp(15px, 1.3vw, 35px);
 }
 
 .logo-container img {
