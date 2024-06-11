@@ -1,6 +1,16 @@
 @font-face {
     font-family: "Montserrat";
-    src: url(./Montserrat-Medium.ttf);
+    src: url(./fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsItalic";
+    src: url(./fonts/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url(./fonts/Poppins-Light.ttf);
 }
 
 
@@ -20,22 +30,26 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10vh;
-    padding: 30px;
-    background-color: forestgreen;
+    padding: 20px;
+    background-color: #115e59;
+    color:#fff7ed;
+    font-size: 'PoppinsLight';
 }
 
 .logo-container {
+    padding: 0;
     display: flex;
     align-items: center;
     gap: 0.5vw;
+    font-family: 'PoppinsItalic';
 }
 
 .logo-title {
-    font-size: clamp(15px, 2vw, 30px);
+    font-size: clamp(15px, 1.2vw, 35px);
 }
 
 .logo-container img {
-    height: clamp(30px, 3.5vw, 45px);
+    height: clamp(30px, 3vw, 40px);
 }
 
 .tab {
