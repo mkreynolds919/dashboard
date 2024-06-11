@@ -1,9 +1,17 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Montserrat-Medium.ttf);
+}
+
+
+
 body {
     height: 100vh;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
+    font-family: 'Montserrat';
 }
 
 .sidebar {
@@ -14,6 +22,25 @@ body {
     gap: 10vh;
     padding: 30px;
     background-color: forestgreen;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.logo-title {
+    font-size: clamp(15px, 2vw, 30px);
+}
+
+.logo-container img {
+    height: clamp(30px, 3.5vw, 45px);
+}
+
+.tab {
+    display: flex;
+    align-items: center;
 }
 
 .header {
