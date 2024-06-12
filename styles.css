@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10vh;
-    padding: 35px 10px 0px 25px;
+    padding: clamp(20px, 1vw, 45px) 10px 0px clamp(10px, 0.5vw, 25px);
     background-color: #0f857d;
     color:#fff7ed;
     font-size: 'PoppinsLight';
