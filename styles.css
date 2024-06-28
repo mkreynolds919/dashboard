@@ -155,7 +155,7 @@ input {
     height: 40px;
     padding: 10px;
     border-radius: 25px;
-    width: 20%;
+    width: max(90px, 20%);
     font-family: "Montserrat";
     font-weight: bold;
 }
